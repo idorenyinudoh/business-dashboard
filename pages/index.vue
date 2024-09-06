@@ -6,6 +6,6 @@ definePageMeta({
 
 <template>
   <div>
-    <h1 class="text-5xl">Dashboard</h1>
+    <h2>Minimum Dashboard 🙏🏽</h2>
   </div>
 </template>

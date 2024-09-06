@@ -34,7 +34,7 @@ watch(selectedRadioOptionIndex, (newValue, oldValue) => {
         <input
           :type="passwordInputType"
           :id="id"
-          class="h-10 w-full rounded-md border px-3 pr-9 py-2 text-sm text-primary file:border-0 file:bg-transparent file:text-sm file:font-medium outline-none focus-visible:border-primary disabled:cursor-not-allowed disabled:opacity-50"
+          class="h-10 w-full rounded-md border px-3 pr-9 py-2 text-sm text-primary outline-none focus-visible:border-primary disabled:cursor-not-allowed disabled:opacity-50"
           :placeholder="placeholder"
           v-model="model"
         />
