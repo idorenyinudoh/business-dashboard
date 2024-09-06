@@ -110,6 +110,10 @@ const submit = () => {
     } else {
       $toast.addToast('This user already exists', 'error')
     }
+  } else {
+    localStorage.setItem('users', JSON.stringify([user]))
+    $toast.addToast('Account created successfully', 'success')
+    router.push('/sign-in')
   }
 }
 </script>
